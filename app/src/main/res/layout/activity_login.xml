@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backthree"
+
+    tools:context="com.scanner.samal.money.LoginActivity">
+
+
+    <Button
+        android:text="Need a New Account"
+        android:textSize="20sp"
+        android:textColor="@drawable/button_text_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NewAccountbtn"
+        android:background="@drawable/border"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/forgotpswdLoginTv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Forgot Password ?"
+        android:textSize="19dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+
+        android:layout_marginTop="47dp"
+        android:background="@drawable/border2"
+        android:layout_below="@+id/loginBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Login"
+        android:textColor="@drawable/button_text_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:textSize="20sp"
+        android:id="@+id/loginBtn"
+        android:background="@drawable/border"
+        android:layout_below="@+id/loginPasswordField"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="51dp"
+        android:id="@+id/loginPasswordField"
+        android:hint="Password..."
+        android:textColorHint="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textCursorDrawable="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:layout_below="@+id/loginEmailField"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/loginEmailField"
+        android:hint="Email..."
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textCursorDrawable="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/googleBtn"
+        android:text="Share on Google+"
+
+        android:layout_above="@+id/NewAccountbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp" />
+
+
+</RelativeLayout>

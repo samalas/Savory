@@ -1,0 +1,122 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.scanner.samal.money.SettingsFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:textColorHighlight="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile Setting"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHighlight="@color/colorAccent"
+            android:textColorHint="@color/colorAccent" />
+    <TextView
+        android:id="@+id/editprofileBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT PROFILE"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorAccent"
+        android:textColorHighlight="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ACCOUNT SETTING"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"
+                android:textColorHint="@color/colorAccent" />
+            <TextView
+                android:id="@+id/changePasswordSettingBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHANGE PASSWORD"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"
+                android:textColorHint="@color/colorAccent" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoutbtn"
+        android:background="@drawable/border2"
+        android:text="logout"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        android:textColorHighlight="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Support Us"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"
+                android:textColorHint="@color/colorAccent" />
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*  rate us in play store."
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+                android:textColorHighlight="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

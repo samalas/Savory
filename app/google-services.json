@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "892914883713",
+    "firebase_url": "https://money-b7bc4.firebaseio.com",
+    "project_id": "money-b7bc4",
+    "storage_bucket": "money-b7bc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892914883713:android:493ebc711529b35d",
+        "android_client_info": {
+          "package_name": "com.scanner.samal.money"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892914883713-ok4u5jke6tdfpddglep3h3skr5kavfd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scanner.samal.money",
+            "certificate_hash": "35EB07461390E02445DA1F29CA1C91F050140FEB"
+          }
+        },
+        {
+          "client_id": "892914883713-fm18lc0neap93jsh861n51l2mufoobjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXg_eZuFQq1gfj9EUqdKUneT75Fg2BM0s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892914883713-fm18lc0neap93jsh861n51l2mufoobjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
